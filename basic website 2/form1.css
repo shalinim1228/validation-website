@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('green background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+header {
+    background-color: rgba(76, 175, 80, 0.8);
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.slogan {
+    flex: 1;
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    text-align: left;
+}
+
+#login-form {
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-left: auto; /* Move the login form to the right */
+}
+
+#login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-container {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+#login-form input::placeholder {
+    color: #999;
+}
+
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#login-form button:hover {
+    background-color: #45a049;
+}
+
+.form-actions {
+    margin-bottom: 15px;
+}
+
+.extra-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-in,
+.forgot-password {
+    font-size: 14px;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.sign-in:hover,
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.sign-in {
+    text-align: left;
+}
+
+.forgot-password {
+    text-align: right;
+}
+
+footer {
+    background-color: rgba(76, 175, 80, 0.8);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
